@@ -78,7 +78,14 @@ namespace MyFirstMVC4Application.Controllers
 
         public ActionResult ContactDetails()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your contact page git.";
+
+            return View();
+        }
+
+        public ActionResult ContactDetailsFetch()
+        {
+            ViewBag.Message = "Your contact page Fetch.";
 
             return View();
         }
