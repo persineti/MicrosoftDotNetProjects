@@ -75,5 +75,12 @@ namespace MyFirstMVC4Application.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public ActionResult ContactDetails()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
