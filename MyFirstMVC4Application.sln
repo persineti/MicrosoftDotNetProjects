@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstMVC4Application", "MyFirstMVC4Application\MyFirstMVC4Application.csproj", "{700D154D-1F92-42AD-81F4-241920F2DF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstMVC4Application.Tests", "MyFirstMVC4Application.Tests\MyFirstMVC4Application.Tests.csproj", "{D4D5843E-3FD0-4C6D-8D2B-8923F04FC3C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C1AD7D80-0A2F-4174-A5CA-62FD8D4102D5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{700D154D-1F92-42AD-81F4-241920F2DF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700D154D-1F92-42AD-81F4-241920F2DF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700D154D-1F92-42AD-81F4-241920F2DF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700D154D-1F92-42AD-81F4-241920F2DF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D5843E-3FD0-4C6D-8D2B-8923F04FC3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D5843E-3FD0-4C6D-8D2B-8923F04FC3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D5843E-3FD0-4C6D-8D2B-8923F04FC3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D5843E-3FD0-4C6D-8D2B-8923F04FC3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
